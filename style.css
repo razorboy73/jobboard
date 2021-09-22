@@ -1,0 +1,77 @@
+.job {
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  margin: 10px 0;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+h5 {
+  margin: 10px 0;
+  font-weight: 500;
+}
+.left-section,
+.middle-section {
+  width: 33%;
+}
+
+.middle-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 50%;
+  margin: auto;
+}
+.mid-right-section {
+  width: 15%;
+  font-size: 12px;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-section {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.company,
+.position {
+  font-size: 12px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.position {
+}
+
+.location {
+  font-size: 8px;
+}
+
+.tag {
+  margin: 3px;
+  border: 1px solid black;
+  padding: 3px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10px;
+}
+
+.apply {
+  background-color: rgb(255, 71, 66);
+  color: white;
+  border-radius: 3px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 700;
+}
+
+.apply:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
